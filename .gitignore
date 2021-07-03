@@ -1,0 +1,6 @@
+dataset/*
+__pycache__
+*.ipynb
+.devcontainer/devcontainer.json
+.vscode
+docker/*

@@ -1,0 +1,24 @@
+{
+    "context": "..",
+    "image": "kaggle/python",
+
+    "settings": {
+        "python.defaultInterpreterPath":"/opt/conda/bin/python3.7",
+        "python.pythonPath": "/opt/conda/bin/python3.7"
+
+    },
+
+    "containerEnv": {
+        "KAGGLE_USERNAME":"your kaggle_username",
+        "KAGGLE_KEY":"Your kaggle_key"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "streetsidesoftware.code-spell-checker",
+        "kiteco.kite",
+        "yzhang.markdown-all-in-one",
+        "mutantdino.resourcemonitor"
+    ]
+}  
